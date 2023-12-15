@@ -1,0 +1,77 @@
+:root {
+  --color-brand-dark: #011c44;
+  --color-brand-light: #2b7fff;
+  --color-secondary-dark: #000000;
+  --color-secondary-light: #ffffff;
+  --color-third-underbutton: #4a4a4a;
+  --color-third-light: #747272;
+}
+/* base */
+body {
+  color: var(--color-brand-dark);
+}
+
+li {
+  list-style-type: none;
+}
+/* button */
+.button {
+  color: var(--color-secondary-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+/* link */
+.link {
+  color: var(--color-brand-dark);
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--color-brand-light);
+}
+.link-footer {
+  color: var(--color-secondary-light);
+  text-decoration: none;
+}
+.link-footer:hover {
+  color: var(--color-brand-light);
+  text-decoration: none;
+}
+/* main */
+.title-accent {
+  color: var(--color-brand-light);
+}
+.recommendation-under-button {
+  color: var(--color-third-underbutton);
+}
+.procedures-list {
+  color: var(--color-secondary-light);
+}
+.choise-list {
+  color: var(--color-secondary-dark);
+}
+/* footer */
+.address-link {
+  color: var(--color-secondary-light);
+  text-decoration: none;
+}
+.address-link:hover {
+  color: var(--color-brand-light);
+  text-decoration: none;
+}
+.privacy-policy {
+  color: var(--color-secondary-light);
+  text-decoration: none;
+}
+.privacy-policy:hover {
+  color: var(--color-brand-light);
+  text-decoration: none;
+}
+.data-protection {
+  color: var(--color-third-light);
+}
